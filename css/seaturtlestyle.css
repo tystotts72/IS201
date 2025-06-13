@@ -1,0 +1,134 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to bottom right, #e0f7f5, #c0e6e2);
+  color: #014d4e;
+  line-height: 1.6;
+  padding: 0;
+  position: relative;
+}
+
+/* Back to Home Link */
+.back-link {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 6px 12px;
+  border-radius: 6px;
+  z-index: 1000;
+}
+
+.back-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #aadfd3;
+}
+
+/* Header */
+.site-header {
+  background: linear-gradient(to right, #026b6c, #014d4e);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.site-header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.site-header .tagline {
+  font-size: 1.2em;
+  margin-bottom: 25px;
+  color: #d8fdf9;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #aadfd3;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+/* Section Layout */
+.content-section {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.content-section:hover {
+  transform: scale(1.01);
+}
+
+.content-section h2 {
+  color: #026b6c;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+/* Image Styling */
+.image-highlight {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 25px auto;
+  border-radius: 12px;
+  border: 6px solid #88c9bf;
+  transition: transform 0.3s ease;
+}
+
+.image-highlight:hover {
+  transform: scale(1.03);
+}
+
+/* Video Styling */
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+iframe {
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.site-footer {
+  background-color: #014d4e;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 60px;
+  font-size: 0.95em;
+  border-top: 5px solid #026b6c;
+}
